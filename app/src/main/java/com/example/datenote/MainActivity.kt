@@ -18,22 +18,7 @@ class MainActivity : AppCompatActivity() {
         val users = ArrayList<User>()
 
         users.add(User("Apexit Dhandav","this is delta description"))
-        users.add(User("Delta Dhandav","this is delta description"))
-        users.add(User("Apexit Dhandav","this is delta description"))
-        users.add(User("Apexit Dhandav","this is delta description"))
-        users.add(User("Apexit Dhandav","this is delta description"))
-        users.add(User("Apexit Dhandav","this is delta description"))
-        users.add(User("Apexit Dhandav","this is delta description"))
-        users.add(User("Apexit Dhandav","this is delta description"))
-        users.add(User("Apexit Dhandav","this is delta description"))
-        users.add(User("Apexit Dhandav","this is delta description"))
-        users.add(User("Apexit Dhandav","this is delta description"))
-        users.add(User("Apexit Dhandav","this is delta description"))
-        users.add(User("Apexit Dhandav","this is delta description"))
-        users.add(User("Apexit Dhandav","this is delta description"))
-        users.add(User("Apexit Dhandav","this is delta description"))
-        users.add(User("Apexit Dhandav","this is delta description"))
-        
+
 
         val adapter = CustomAdapter(users)
 
