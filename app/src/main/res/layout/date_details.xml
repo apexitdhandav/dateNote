@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DateDetailsActivity">
+    tools:context=".DateDetailsActivity"
+    android:padding="20dp">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_save"
@@ -15,5 +16,35 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_margin="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/user_name"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:lines="1"
+        android:inputType="text"/>
+
+    <Spinner
+        android:id="@+id/eventType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Event"
+        android:layout_below="@id/user_name"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventType"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
 
 </RelativeLayout>
